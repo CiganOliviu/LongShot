@@ -159,7 +159,7 @@ nav ul li a:hover {
         display: block;
         width: 20px;
         height: 2px;
-        background: #1f2227;
+        background: #ffffff;
         border-radius: 2px;
     }
 
@@ -209,28 +209,104 @@ nav ul li a:hover {
     pointer-events: auto;
 }
 
-header i {
+header .presentation i {
     font-size: 24px;
+    padding: 1%;
+    border: #ffffff 2px solid;
+    border-radius: 75%;
+    transition: all 500ms ease-out;
+    margin-left: 2%;
+}
+
+header .presentation i:hover {
+    color: #1f2227;
+    background: #ffffff;
+    transition: all 500ms ease-out;
+}
+
+.content {
+    padding: 2%;
+}
+
+.content h1 {
+    font-size: 40px;
+    padding: 2%;
+}
+
+.content p {
+    font-size: 18px;
+}
+
+.content a {
+    text-decoration: none;
+}
+
+.content .red-wrapped {
+    background: #970805;
+    color: #000000;
+    padding: 4%;
+    transition: all 800ms ease;
+}
+
+.content .red-wrapped:hover {
+    background: #ffffff;
+    transition: all 800ms ease;
+}
+
+.content .red-wrapped-cut {
+    background: #ffffff;
+    color: #000000;
+    padding: 3%;
+    transition: all 800ms ease;
+    width: 40%;
+}
+
+.content .red-wrapped-cut:hover {
+    background: #970805;
+    transition: all 800ms ease;
+}
+
+.love_is_for_losers_image {
+
+    width: 100%;
+    height: auto;
+}
+
+.youtube_video {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
 }
 
 .footer {
     background: #000000;
     color: #ffffff;
-    padding: 2%;
+    padding: 3%;
+    font-size: 18px;
 }
 
 .footer a {
     color: #ffffff;
 }
 
+.social-media {
+    padding: 1%;
+}
+
+.social-media:hover {
+    i {
+        color: #595959;
+    }
+}
+
 .footer i {
     padding: 1%;
-    font-size: 20px;
+    font-size: 35px;
     transition: all 500ms ease;
 }
 
 .footer i:hover {
-
-    color: #cc0000;
+    color: #970805;
     transition: all 500ms ease;
 }

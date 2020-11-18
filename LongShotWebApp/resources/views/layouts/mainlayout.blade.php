@@ -22,10 +22,13 @@
     <div class="container-fluid" id="black-background" align="center">
         <div class="col-lg-12">
             <div class="footer">
-                <a href=""><i class="fab fa-facebook-f"></i></a>
-                <a href=""><i class="fab fa-instagram"></i></a>
-                <a href=""><i class="fab fa-twitter"></i></a>
-                <a href=""><i class="fab fa-youtube"></i></a>
+                <div class="social-media">
+                    <a href=""><i class="fab fa-spotify"></i></a>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                </div>
                 <div>&nbsp;</div>
                 <p>&copy; 2020 Longshot and reprise records</p>
             </div>

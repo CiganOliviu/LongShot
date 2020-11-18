@@ -302,11 +302,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
   <component name="RunManager">
@@ -325,6 +325,8 @@
       <updated>1605260776776</updated>
       <workItem from="1605260783352" duration="16034000" />
       <workItem from="1605284196240" duration="2656000" />
+      <workItem from="1605551244633" duration="7598000" />
+      <workItem from="1605627868934" duration="853000" />
     </task>
     <servers />
   </component>
