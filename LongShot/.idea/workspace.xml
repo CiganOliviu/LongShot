@@ -24,6 +24,7 @@
       <change afterPath="$PROJECT_DIR$/../CiganEnterprize/Careers/forms.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CiganEnterprize/Careers/urls.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CiganEnterprize/MainComponent/templates/views/employees/employees.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/tour_view.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PersonalWebApp/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PersonalWebApp/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WeddingInvitation/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
@@ -244,7 +245,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -388,6 +389,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605907371960</updated>
       <workItem from="1605907379706" duration="3629000" />
+      <workItem from="1606057320547" duration="2964000" />
     </task>
     <servers />
   </component>
@@ -404,8 +406,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2649" y="311" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606059065062">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2649" y="311" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1606059065062" />
+    <state x="2893" y="513" width="399" height="156" key="NewPhpFileDialog" timestamp="1606059151687">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2893" y="513" width="399" height="156" key="NewPhpFileDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1606059151687" />
     <state x="2579" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1605909819121">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

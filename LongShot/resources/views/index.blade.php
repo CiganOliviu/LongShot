@@ -16,7 +16,7 @@
                     <ul>
                         <li><a href="/">Home</a></li>
                         <li><a href="band-news">News</a></li>
-                        <li><a href="#">Tour</a></li>
+                        <li><a href="tour">Tour</a></li>
                         <li><a href="#">Music</a></li>
                     </ul>
                 </div>
