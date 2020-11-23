@@ -3,7 +3,7 @@
 @section('content')
 
 
-<div class="paralax-background">
+<div class="paralax-background-news">
     <div align="center">
         <nav class="nav-conainer">
             <input type="checkbox" id="nav" class="hidden"/>
@@ -25,6 +25,8 @@
         <div class="col-lg-12">
             <div class="presentation">
                 <h1><b>BAND NEWS</b></h1>
+                <div>&nbsp;</div>
+                <h2>Stay tuned to find informations about tours, new songs and others</h2>
             </div>
         </div>
     </div>

@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="paralax-background">
+<div class="paralax-background-news">
     <div align="center">
         <nav class="nav-conainer">
             <input type="checkbox" id="nav" class="hidden"/>

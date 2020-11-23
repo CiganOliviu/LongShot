@@ -11,7 +11,7 @@ a:hover {
     text-decoration: none;
 }
 
-.paralax-background {
+.paralax-background-news {
     background-image: url('../../public/data/longshot_paralax.jpg');
     height: 100vh;
 
@@ -31,15 +31,47 @@ a:hover {
     filter: grayscale(60%);
 }
 
-.paralax-background nav {
+.paralax-background-news nav {
     z-index: 1000;
 }
 
-.paralax-background .presentation {
+.paralax-background-news .presentation {
     margin-top: 30%;
 }
 
-.paralax-background .presentation h1 {
+.paralax-background-news .presentation h1 {
+    font-size: 70px;
+}
+
+.paralax-background-tour {
+    background-image: url('../../public/data/longshot_tours.jpg');
+    height: 100vh;
+
+    @media (min-width: 768px) {
+        min-height: 20vw;
+    }
+
+    @media (min-width: 1200px) {
+        min-height: 400px;
+    }
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+    filter: grayscale(60%);
+}
+
+.paralax-background-tour nav {
+    z-index: 1000;
+}
+
+.paralax-background-tour .presentation {
+    margin-top: 30%;
+}
+
+.paralax-background-tour .presentation h1 {
     font-size: 70px;
 }
 
@@ -344,6 +376,29 @@ header .presentation i:hover {
 }
 
 .content .red-wrapped-cut:hover {
+    background: #970805;
+    transition: all 800ms ease;
+}
+
+.boundaries {
+    background: #000000;
+    padding: 3%;
+}
+
+.boundaries p {
+    font-size: 18px;
+}
+
+.white-wrapped-cut {
+    padding: 3%;
+    background: #ffffff;
+    color: #000000;
+    font-size: 20px;
+    transition: all 800ms ease;
+}
+
+.white-wrapped-cut:hover {
+    color: #000000;
     background: #970805;
     transition: all 800ms ease;
 }

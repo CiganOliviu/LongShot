@@ -3,7 +3,7 @@
 @section('content')
 
 
-    <div class="paralax-background">
+    <div class="paralax-background-tour">
         <div align="center">
             <nav class="nav-conainer">
                 <input type="checkbox" id="nav" class="hidden"/>
@@ -24,37 +24,33 @@
         <div class="container" align="center">
             <div class="col-lg-12">
                 <div class="presentation">
-                    <h1><b>BAND NEWS</b></h1>
+                    <h1><b>BAND TOURS</b></h1>
+                    <div>&nbsp;</div>
+                    <h2>Stay tuned to find informations about tours, new songs and others</h2>
                 </div>
             </div>
         </div>
     </div>
 
+    <div>&nbsp;</div>
+
     <div class="container-fluid" align="center">
-        <div class="col-lg-12">
-            @foreach ($tours as $tours)
-                <div class="content">
-                    <h1><b>{{ $tours->space }}</b></h1>
-
-                    <div>&nbsp;</div>
-
-                    <p>
-                        {{ $tours->location }}
-                    </p>
-
-                    <div>&nbsp;</div>
-
-                    <p>
-                        {{ $tours->time }}
-                    </p>
-
-                    <div>&nbsp;</div>
-
-                    <p> {{ $tours->ticket }} </p>
+        @foreach ($tours as $tours)
+            <div class="boundaries">
+                <div class="col-lg-3">
+                    <p><b>{{ $tours->space }}</b></p>
                 </div>
-                <div>&nbsp;</div>
-            @endforeach
-        </div>
+                <div class="col-lg-3">
+                    <p>{{ $tours->time }}</p>
+                </div>
+                <div class="col-lg-3">
+                    <p>{{ $tours->location }}</p>
+                </div>
+                <div class="col-lg-3">
+                    <a target="_blank" class="white-wrapped-cut" href="{{ $tours->ticket }}">Tickets</a>
+                </div>
+            </div>
+            <div>&nbsp;</div>
+        @endforeach
     </div>
-
 @endsection
