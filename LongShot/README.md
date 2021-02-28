@@ -1,61 +1,99 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Longshot
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+This app represents the presentation website for a band called longshot.
 
-## About Laravel
+![Website main page](longshot_documentation/picture_1.png)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Backend
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+![Website main page](longshot_documentation/picture_5.png)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+This app contains different subsystems such as a newsletter, an administration
+board and others. The database behind the system is mysql.
 
-## Learning Laravel
+##### Newsletter
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+The science behind is simple, the user has a form in the webapp where he can either send his email or ignore
+the form. If the data is send, it will be saved automatically in a table called newsletter from mysql.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+##### How the form looks for the user
 
-## Laravel Sponsors
+![Website main page](longshot_documentation/picture_2.png)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+##### How the stored data looks in mysql
 
-### Premium Partners
+![Website main page](longshot_documentation/picture_3.png)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
+##### Administration Board with tours and news
 
-## Contributing
+The Administration board represents a login system, an admin account will be created for the 
+future administrator by the developer. With that account the administrator will have access on a web 
+page where he can add news about the band or future concerts.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+##### How does the administration system form looks
 
-## Code of Conduct
+![Website main page](longshot_documentation/picture_4.png)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+As I said, the administrator will be able to either add a new concert in a tour or add news about the band
+using predefined forms.
 
-## Security Vulnerabilities
+##### How does the form for adding news looks
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+![Website main page](longshot_documentation/picture_6.png)
 
-## License
+##### How does the form for adding concerts looks
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+![Website main page](longshot_documentation/picture_8.png)
+
+The data added in those forms is later listed in two different sections, news and tours. For the data
+to be listed it has to be stored, so after sending the form the data is stored in two different tables, 
+tours and news. Only after that is listed in the UI.
+
+##### How does the data for news looks in the UI
+
+![Website main page](longshot_documentation/picture_7.png)
+
+##### How does the data for tours looks in the UI
+
+![Website main page](longshot_documentation/picture_9.png)
+
+## Frontend
+
+The website is 100% responsive, it's easy to use with a good UX. The wallpaper is changing on every 
+section, so I alternated the video wallpaper with the image wallpaper. Along the app I tried to use 
+good contrasts between the text and the background. There are also some basic animations 
+as well realised with SASS, Javascript and Jquery.
+
+![Website main page](longshot_documentation/picture_10.png) ![Website main page](longshot_documentation/picture_11.png)
+
+## Technologies
+
+The technologies I've used for this project are HTML5, SASS, Bootstrap, Javascript, JQuery,
+PHP Laravel and mysql database.
+
+## Future Development
+
+A list with possible and super helpful updates that the system may need:
+
+* I would like to order tickets directly from this platform, without redirecting me to any other webapp
+where the purchase is realised.
+
+* As an administrator it would be nice to see all the databases with their contents directly in the admin board without having to go
+to mysql. This admin board would be very similar with the one from django, this is 
+super helpful when administrating a lot of databases and tables like in cigan_enterprize (...). 
+
+## Requirements
+
+* You should have xampp, php (7.4.3 or bigger), composer and laravel (8.15.0 or bigger) in order to run the app.
+
+## Setup
+
+* Download the repo
+* Open the folder structure of the app, open a cmd or terminal and type
+```
+    php artisan serve
+```
+
+The server will automatically run.
+
+* Enjoy
